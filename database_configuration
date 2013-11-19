@@ -1,0 +1,6 @@
+CREATE TABLE `acoes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `data` datetime DEFAULT NULL,
+  `patrimonio` double NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=19882 DEFAULT CHARSET=latin1
